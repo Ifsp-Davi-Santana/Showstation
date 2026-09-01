@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom,#7e1ad8, #992bff, #d6abff);
+    opacity: 0.9;
+    height: 10vh;
+    margin-bottom: 30px;
+}
+
+nav{
+    background-image: linear-gradient(purple to black);
+}
+
+#title{
+    color: white;
+    font-family: poppins;
+}
+
+#entrar{
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border: solid 2px #1f286c;
+    border-radius: 5px;
+    font-family: poppins;
+    font-weight: bold;
+}
+
+#cadastrar{
+    background-color: #8c52ff;
+    color: white;
+    font-size:medium;
+    font-family: poppins;
+    font-weight: bold;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid #992bff;
+}
+
+input{
+    width: 160px;
+    height: 30px;
+    border-radius: 4px;
+    border: 2px solid #992bff;
+    font-family: arial;
+    font-size: medium;
+}
+
+header{
+    width: 100vw;
+    height: 80vh;
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.ban{
+    font-family: "Playfair Display",serif;
+    color: white;
+    font-weight:500;
+    font-size: 30px;
+    margin: 15px;
+}
+
+h2.ban{
+    font-size: 50px;
+}
+
+#comprar{
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #e76df4;
+    border: 2px solid #311641;
+    margin: 20px;
+    font-weight: bold;
+    font-size: medium
+}
